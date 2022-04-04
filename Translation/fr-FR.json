@@ -1,0 +1,10 @@
+{
+  "CashPayment:AmountReceived": "Montant reçu",
+  "CashPayment:ChangedReturned": "Rendu de la monnaie",
+  "MoveCash:MoveCashFromSourceNoStationToDestinationNoStation": "Déplacer l'argent de {0} á {1}",
+  "MoveCash:MoveCashFromSourceNoStationToDestinationStation": "Déplacer l'argent de {0} á {1} sur la station {2}",
+  "MoveCash:MoveCashFromSourceStationToDestinationNoStation": "Déplacer l'argent de {0} sur la station {1} á {2}",
+  "MoveCash:MoveCashFromSourceStationToDestinationStation": "Déplacer l'argent de {0} sur la station {1} á {2} sur la station {3}",
+  "CashDeposit:CreateLedgerDescription": "Créer dépôt {0}, à partir de {1}.",
+  "PendingCashDeposit:CreateLedgerDescription": "Créer le dépôt en attente {0}, à partir de {1}."
+}
