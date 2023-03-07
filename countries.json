@@ -611,8 +611,8 @@
         "Code": "GBR",
         "Number": 826,
         "Name": "United Kingdom",
-        "EU": true,
-        "EEA": true,
+        "EU": false,
+        "EEA": false,
         "EFTA": false
     }, {
         "ID": "GD",
