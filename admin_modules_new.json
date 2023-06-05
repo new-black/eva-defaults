@@ -4,76 +4,76 @@
     "Code": "ORDERS",
     "IsActive": true,
     "Data": {"Title":"Orders","Description":"all orders can be found and order related chapters like orchestration, return reasons and logs","Url":"/orders"},
-    "Roles": []
+    "Roles": ["NB"]
   },
     {
     "Name": "Promotions",
     "Code": "DISCOUNTS",
     "IsActive": true,
     "Data": {"Title":"Promotions","Description":"all promotions are created, edited and viewed here as well as templates and campaigns for promotions","Url":"/promotions"},
-    "Roles": []
+    "Roles": ["NB"]
   },
     {
     "Name": "Financials",
     "Code": "FINANCIALS",
     "IsActive": true,
     "Data": {"Title":"Financials","Description":"everything related to financials like invoices, currencies, tax management and other related topics","Url":"/financials"},
-    "Roles": []
+    "Roles": ["NB"]
   },
     {
     "Name": "Tasks",
     "Code": "TASKS",
     "IsActive": true,
     "Data": {"Title":"Tasks","Description":"ship from store, incoming shipments, reservations and print tasks","Url":"/tasks"},
-    "Roles": []
+    "Roles": ["NB"]
   },
     {
     "Name": "Organizations",
     "Code": "ORGANIZATIONS",
     "IsActive": true,
     "Data": {"Title":"Organizations","Description":"all organizaiton related topics f.e. organizations, companies, opening hours","Url":"/organizations"},
-    "Roles": []
+    "Roles": ["NB"]
   },
     {
     "Name": "Settings",
     "Code": "SETTINGS",
     "IsActive": true,
     "Data": {"Title":"Settings","Description":"all settings and appsettings can be viewed and edited here","Url":"/settings"},
-    "Roles": []
+    "Roles": ["NB"]
   },
     {
     "Name": "Stock",
     "Code": "STOCKMANAGEMENT",
     "IsActive": true,
     "Data": {"Title":"Stock","Description":"in this module the stock related chapters are included like stock counts, assortments and replenishment","Url":"/stock-management"},
-    "Roles": []
+    "Roles": ["NB"]
   },
     {
     "Name": "People",
     "Code": "CRM",
     "IsActive": true,
     "Data": {"Title":"People","Description":"employees and their roles and rights can be viewed, edited, created and deleted in this module","Url":"/crm"},
-    "Roles": []
+    "Roles": ["NB"]
   },
     {
     "Name": "PIM",
     "Code": "PIM",
     "IsActive": true,
     "Data": {"Title":"PIM","Description":"product bundles can be viewed, edited, deleted and created here","Url":"/pim"},
-    "Roles": []
+    "Roles": ["NB"]
   },
   {
     "Name": "Control room",
     "Code": "MONITORS",
     "IsActive": true,
     "Data": {"Title":"Control room","Description":"monitor and settings can be viewed, edited and created in this module","Url":"/control-room"},
-    "Roles": []
+    "Roles": ["NB"]
   },
   {
     "Name": "Compliance",
     "Code": "COMPLIANCE",
     "IsActive": true,
     "Data": {"Title":"Compliance","Description":"Module for viewing and managing fiscal archives, event ledger, payment settlements and other, compliance-related items","Url":"/compliance"},
-    "Roles": []
+    "Roles": ["NB"]
   }
 ]

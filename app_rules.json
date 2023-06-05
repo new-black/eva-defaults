@@ -1,0 +1,14 @@
+[{
+    "ClientName": "some-test-client-0ea88296-f7b2-4e65-93eb-afc3a9a6191e",
+    "FromVersion": null,
+    "ToVersion": "0.2.*",
+    "Type": "Warning",
+    "Comment": null
+},
+{
+    "ClientName": "some-other-client-0ea88296-f7b2-4e65-93eb-afc3a9a6191e",
+    "FromVersion": "0.1.0",
+    "ToVersion": "0.1.4",
+    "Type": "Error",
+    "Comment": "Due to connection issues, please update to 0.1.5 or later"
+}]
