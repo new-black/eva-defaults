@@ -1,0 +1,12 @@
+{
+  "name": "eva-defaults",
+  "version": "1.0.0",
+  "description": "Defaults values used in all EVA environments",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest tests/validateAppSettings.js"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
