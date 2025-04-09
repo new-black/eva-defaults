@@ -1,0 +1,15 @@
+{
+  "name": "eva-defaults",
+  "version": "1.0.0",
+  "description": "Eva defaults configuration",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitest/coverage-v8": "^1.4.0",
+    "vitest": "^1.4.0"
+  }
+}
