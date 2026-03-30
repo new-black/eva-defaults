@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Eva defaults configuration",
   "scripts": {
+    "validate": "ajv validate -s appsettings.schema.json -d appsettings.json && ajv validate -s countries.schema.json -d countries.json && ajv validate -s tipkit/tipkit.schema.json -d tipkit/tipkit.json",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage"
@@ -10,6 +11,7 @@
   "devDependencies": {
     "@types/node": "^22.14.0",
     "@vitest/coverage-v8": "^1.4.0",
+    "ajv-cli": "^5.0.0",
     "vitest": "^1.4.0"
   }
 }

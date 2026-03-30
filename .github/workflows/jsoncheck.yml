@@ -10,26 +10,16 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: json-syntax-check
-        uses: limitusus/json-syntax-check@v1
-        with:
-          pattern: "\\.json$"
-      - name: Validate appsettings.json
-        uses: docker://orrosenblatt/validate-json-action:latest
-        with:
-          SCHEMA: ./appsettings.schema.json
-          JSONS: ./appsettings.json
-      - name: Validate countries.json
-        uses: docker://orrosenblatt/validate-json-action:latest
-        with:
-          SCHEMA: ./countries.schema.json
-          JSONS: ./countries.json
+      - name: Checkout repository
+        uses: actions/checkout@v4
       - name: Set up Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
+          cache: "npm"
       - name: Install dependencies
-        run: npm install
+        run: npm ci
+      - name: Validate schemas
+        run: npm run validate
       - name: Run tests
         run: npm test
