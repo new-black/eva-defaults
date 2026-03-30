@@ -10,8 +10,9 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: json-syntax-check
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Check JSON syntax
         uses: limitusus/json-syntax-check@v1
         with:
           pattern: "\\.json$"
@@ -31,10 +32,11 @@ jobs:
           SCHEMA: ./tipkit/tipkit.schema.json
           JSONS: ./tipkit/tipkit.json
       - name: Set up Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
           node-version: "20"
+          cache: "npm"
       - name: Install dependencies
-        run: npm install
+        run: npm ci
       - name: Run tests
         run: npm test
