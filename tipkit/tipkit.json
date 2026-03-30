@@ -1,0 +1,25 @@
+[
+  {
+    "id": "add-item-tutorial",
+    "category": "",
+    "title": "Adding Your First Item",
+    "description": "Learn how to add a new item using the second tab.",
+    "tips": [
+      {
+        "id": "tap-items-tab",
+        "title": "Open Items",
+        "message": "Tap the Items tab to see your items list."
+      },
+      {
+        "id": "tap-plus-button",
+        "title": "Add New Item",
+        "message": "Tap the plus button to start creating a new item."
+      },
+      {
+        "id": "tap-add-in-sheet",
+        "title": "Confirm",
+        "message": "Tap Add to save your new item."
+      }
+    ]
+  }
+]

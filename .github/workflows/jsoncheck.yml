@@ -25,6 +25,11 @@ jobs:
         with:
           SCHEMA: ./countries.schema.json
           JSONS: ./countries.json
+      - name: Validate tipkit.json
+        uses: docker://orrosenblatt/validate-json-action:latest
+        with:
+          SCHEMA: ./tipkit/tipkit.schema.json
+          JSONS: ./tipkit/tipkit.json
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:

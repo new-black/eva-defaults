@@ -1,0 +1,61 @@
+{
+    "type": "array",
+    "items": {
+        "$ref": "#/definitions/TipKitDefinition"
+    },
+    "definitions": {
+        "TipKitDefinition": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "id": {
+                    "type": "string"
+                },
+                "category": {
+                    "type": "string"
+                },
+                "title": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "tips": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Tip"
+                    }
+                }
+            },
+            "required": [
+                "id",
+                "category",
+                "title",
+                "description",
+                "tips"
+            ],
+            "title": "TipKitDefinition"
+        },
+        "Tip": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "id": {
+                    "type": "string"
+                },
+                "title": {
+                    "type": "string"
+                },
+                "message": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "id",
+                "title",
+                "message"
+            ],
+            "title": "Tip"
+        }
+    }
+}
