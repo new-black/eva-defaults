@@ -1,24 +1,34 @@
 [
   {
-    "id": "add-item-tutorial",
-    "category": "",
-    "title": "Adding Your First Item",
-    "description": "Learn how to add a new item using the second tab.",
+    "id": "tap-to-pay-tutorial",
+    "category": "checkout",
+    "title": "Paying with Tap to Pay",
+    "description": "Learn how to complete a payment using Tap to Pay.",
     "tips": [
       {
-        "id": "tap-items-tab",
-        "title": "Open Items",
-        "message": "Tap the Items tab to see your items list."
+        "id": "tap-products-tab",
+        "title": "Open Products",
+        "message": "Tap the Products tab to browse available products."
       },
       {
-        "id": "tap-plus-button",
-        "title": "Add New Item",
-        "message": "Tap the plus button to start creating a new item."
+        "id": "search-product",
+        "title": "Search for a Product",
+        "message": "Use the search bar to find the product you need."
       },
       {
-        "id": "tap-add-in-sheet",
-        "title": "Confirm",
-        "message": "Tap Add to save your new item."
+        "id": "add-product-to-basket",
+        "title": "Add to Basket",
+        "message": "Tap the product to add it to your basket."
+      },
+      {
+        "id": "tap-checkout-button",
+        "title": "Go to Checkout",
+        "message": "Tap the checkout button to proceed with payment."
+      },
+      {
+        "id": "tap-taptopay-button",
+        "title": "Tap to Pay",
+        "message": "Tap the Tap to Pay button to complete the payment."
       }
     ]
   }
