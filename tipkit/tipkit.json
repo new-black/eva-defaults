@@ -1,35 +1,552 @@
 [
-  {
-    "id": "tap-to-pay-tutorial",
-    "category": "checkout",
-    "title": "Paying with Tap to Pay",
-    "description": "Learn how to complete a payment using Tap to Pay.",
-    "tips": [
-      {
-        "id": "tap-products-tab",
-        "title": "Open Products",
-        "message": "Tap the Products tab to browse available products."
-      },
-      {
-        "id": "search-product",
-        "title": "Search for a Product",
-        "message": "Use the search bar to find the product you need."
-      },
-      {
-        "id": "add-product-to-basket",
-        "title": "Add to Basket",
-        "message": "Tap the product to add it to your basket."
-      },
-      {
-        "id": "tap-checkout-button",
-        "title": "Go to Checkout",
-        "message": "Tap the checkout button to proceed with payment."
-      },
-      {
-        "id": "tap-taptopay-button",
-        "title": "Tap to Pay",
-        "message": "Tap the Tap to Pay button to complete the payment."
-      }
-    ]
-  }
+    {
+        "id": "click-and-collect",
+        "category": "tasks",
+        "title": "Click & Collect Reservations",
+        "description": "Learn how to prepare, hand over, and clean up Click & Collect orders.",
+        "tips": [
+            {
+                "id": "cc-home-category",
+                "title": "Click & Collect Tasks",
+                "message": "Customers may buy products online or in a different store but wish to pick up their products in your store. Tasks to handle these parcels will appear here."
+            },
+            {
+                "id": "cc-home-category-open",
+                "title": "Open Click & Collect",
+                "message": "Tap the line to navigate to the next screen."
+            },
+            {
+                "id": "cc-subcategory-header",
+                "title": "Three Task Types",
+                "message": "There are three types of tasks associated with Click & Collect."
+            },
+            {
+                "id": "cc-task-type-reservation",
+                "title": "Reservation Tasks",
+                "message": "Reservation tasks guide you through the steps to prepare the parcel for the customer."
+            },
+            {
+                "id": "cc-task-type-pickup",
+                "title": "Pickup Tasks",
+                "message": "Pickup tasks guide you through the steps to hand over the parcel to the customer."
+            },
+            {
+                "id": "cc-task-type-cleanup",
+                "title": "Cleanup Tasks",
+                "message": "Cleanup tasks guide you through the steps to take if a customer did not show up to collect their parcel."
+            },
+            {
+                "id": "cc-open-reservations",
+                "title": "Open Reservations",
+                "message": "Tap Reservations to open the list."
+            },
+            {
+                "id": "cc-reservation-list",
+                "title": "Reservations to Prepare",
+                "message": "All Click & Collect orders ready to prepare will appear here. Tap a task to start the process."
+            },
+            {
+                "id": "cc-reservation-products",
+                "title": "Products to Reserve",
+                "message": "This section shows the products that need to be reserved for the customer."
+            },
+            {
+                "id": "cc-reservation-scanner",
+                "title": "Scan to Pick",
+                "message": "Scan your first product to mark it as picked."
+            },
+            {
+                "id": "cc-reservation-product-line",
+                "title": "Pick on the Details Page",
+                "message": "You can also pick a product on the product details page by tapping the line."
+            },
+            {
+                "id": "cc-reservation-quantity",
+                "title": "Update Quantity",
+                "message": "Update the quantity to mark the item as picked, then tap Back."
+            },
+            {
+                "id": "cc-reservation-cancel",
+                "title": "Cancel Out-of-Stock Items",
+                "message": "Swipe left to cancel the product if it is out of stock. This triggers a refund to the customer!"
+            },
+            {
+                "id": "cc-reservation-confirm",
+                "title": "Continue",
+                "message": "Tap Next to move to the confirmation screen."
+            },
+            {
+                "id": "cc-reservation-print-receipt",
+                "title": "Print Receipt",
+                "message": "Here you can indicate if a receipt needs to be printed to attach to the parcel."
+            },
+            {
+                "id": "cc-reservation-complete-confirm",
+                "title": "Complete the Reservation",
+                "message": "Tap Confirm to complete the task, inform the customer their parcel is ready, and create a pickup task."
+            },
+            {
+                "id": "cc-open-pickups",
+                "title": "Open Pickup Tasks",
+                "message": "Tap Pick Up Tasks to open the list."
+            },
+            {
+                "id": "cc-pickup-list",
+                "title": "Orders Ready for Pickup",
+                "message": "All Click & Collect orders ready for pickup are here. Tap a task to start the process."
+            },
+            {
+                "id": "cc-pickup-header",
+                "title": "Verify the Customer",
+                "message": "With this task we verify the customer's identity before handing over the order."
+            },
+            {
+                "id": "cc-pickup-expiration",
+                "title": "Expiration Date",
+                "message": "Once the expiration date passes, the customer will be notified and refunded. The expiration date can be updated to prevent this."
+            },
+            {
+                "id": "cc-pickup-verify",
+                "title": "Verify & Hand Over",
+                "message": "The customer has received a confirmation email with a QR code. Tap Verify to scan the customer's QR code before handing over the parcel."
+            },
+            {
+                "id": "cc-open-cleanup",
+                "title": "Open Reservation Cleanup",
+                "message": "Tap Reservation Cleanup to open the list."
+            },
+            {
+                "id": "cc-cleanup-list",
+                "title": "Cleanup Tasks",
+                "message": "All cleanup tasks for orders where the customer did not show up will appear here. Tap a task to start the process."
+            },
+            {
+                "id": "cc-cleanup-header",
+                "title": "Return the Products",
+                "message": "A cleanup task means the customer did not show up in time to collect their order. In this task we return the products to make them sellable again."
+            },
+            {
+                "id": "cc-cleanup-scanner",
+                "title": "Scan to Return",
+                "message": "Scan a product to return it to sellable stock."
+            },
+            {
+                "id": "cc-cleanup-nothing-to-return",
+                "title": "Nothing to Return",
+                "message": "If the products are no longer in the store, swipe to indicate nothing to return."
+            },
+            {
+                "id": "cc-cleanup-action-dropdown",
+                "title": "Select an Action",
+                "message": "For items that are no longer in the store, an action needs to be selected."
+            },
+            {
+                "id": "cc-cleanup-action-refund",
+                "title": "Refund",
+                "message": "Refund — the customer did not pick up the order and needs a refund."
+            },
+            {
+                "id": "cc-cleanup-action-shipped",
+                "title": "Shipped",
+                "message": "Shipped — the customer did pick up the order but it was not registered."
+            },
+            {
+                "id": "cc-cleanup-confirm",
+                "title": "Complete the Cleanup",
+                "message": "Select one of the actions and tap Confirm to complete the task."
+            },
+            {
+                "id": "cc-journey-complete",
+                "title": "All Done!",
+                "message": "You have completed the full Click & Collect flow."
+            }
+        ]
+    },
+    {
+        "id": "switch-apps",
+        "category": "checkout",
+        "title": "Switching Between Apps",
+        "description": "Learn how to switch between your Eva apps using the widgets in your profile.",
+        "tips": [
+            {
+                "id": "switch-apps-open-cockpit",
+                "title": "Open Your Profile",
+                "message": "Tap your profile to open the Cockpit, where you can manage your session and jump between apps."
+            },
+            {
+                "id": "switch-apps-widgets",
+                "title": "Your Apps",
+                "message": "Under Your Apps you'll find a widget for every app you have access to, each showing a live summary."
+            },
+            {
+                "id": "switch-apps-tap-widget",
+                "title": "Tap to Switch",
+                "message": "Tap any app widget to switch straight to that app."
+            }
+        ]
+    },
+    {
+        "id": "subscriptions",
+        "category": "loyalty",
+        "title": "Managing Subscriptions",
+        "description": "Learn how to find a consumer and manage their opt-ins and subscriptions.",
+        "tips": [
+            {
+                "id": "subscriptions-search-input",
+                "title": "Search for a Consumer",
+                "message": "Select the input field to start searching."
+            },
+            {
+                "id": "subscriptions-cfd-connect",
+                "title": "Connect a CFD",
+                "message": "To ask the consumer to provide their own details to search on, connect and start the search on the CFD."
+            },
+            {
+                "id": "subscriptions-search-query",
+                "title": "Type a Search Query",
+                "message": "Type a search query to find the consumer, for example \"Jane Doe\"."
+            },
+            {
+                "id": "subscriptions-filter",
+                "title": "Filter Your Search",
+                "message": "To narrow your search to specific fields, adjust the filters. Your filter selection is saved until you close the app."
+            },
+            {
+                "id": "subscriptions-search-tabs",
+                "title": "Switch Search Type",
+                "message": "Quickly switch between searching on consumers, companies or employees by tapping the tabs."
+            },
+            {
+                "id": "subscriptions-consumer-row",
+                "title": "Open the Consumer",
+                "message": "If the expected consumer is found, tap the row to open their details."
+            },
+            {
+                "id": "subscriptions-optin-warning",
+                "title": "Opt-In Warning",
+                "message": "You are notified here if the consumer is not subscribed to a preferred opt-in. Tap the warning to open the opt-in overview."
+            },
+            {
+                "id": "subscriptions-optin-list-item",
+                "title": "All Opt-Ins",
+                "message": "All active and possible opt-ins can be found here. Tap an item to open its details."
+            },
+            {
+                "id": "subscriptions-optin-toggle",
+                "title": "Enable or Disable",
+                "message": "An opt-in can be simply enabled or disabled by tapping the toggle."
+            },
+            {
+                "id": "subscriptions-optin-details",
+                "title": "More Information",
+                "message": "Tap the details section to get more information about this opt-in."
+            }
+        ]
+    },
+    {
+        "id": "delivery-order",
+        "category": "checkout",
+        "title": "Creating a Delivery Order",
+        "description": "Learn how to set a product to delivery, add a customer, and check out a delivery order.",
+        "tips": [
+            {
+                "id": "delivery-scan-product",
+                "title": "Add a Product",
+                "message": "Scan or search a product to add it to the basket before starting this journey."
+            },
+            {
+                "id": "delivery-open-order-line",
+                "title": "Open Order Details",
+                "message": "Tap a product line to open its order details."
+            },
+            {
+                "id": "delivery-action-type-dropdown",
+                "title": "Change Fulfillment",
+                "message": "Tap the action type dropdown to change how this item will be fulfilled."
+            },
+            {
+                "id": "delivery-select-delivery",
+                "title": "Select Delivery",
+                "message": "Select Delivery to ship this item directly to the customer."
+            },
+            {
+                "id": "delivery-back-to-basket",
+                "title": "Back to Basket",
+                "message": "Tap Back to return to the basket."
+            },
+            {
+                "id": "delivery-add-customer",
+                "title": "Add a Customer",
+                "message": "A customer is required for delivery orders — tap the icon to add one."
+            },
+            {
+                "id": "delivery-search-customer",
+                "title": "Search for a Customer",
+                "message": "Type the customer's name to find them, for example \"Jane Doe\"."
+            },
+            {
+                "id": "delivery-attach-customer",
+                "title": "Attach the Customer",
+                "message": "Tap Add to attach the customer to this order."
+            },
+            {
+                "id": "delivery-checkout",
+                "title": "Go to Checkout",
+                "message": "Tap Checkout to proceed to delivery settings and payment."
+            },
+            {
+                "id": "delivery-address-section",
+                "title": "Check the Address",
+                "message": "Check that the delivery address is correct before continuing."
+            },
+            {
+                "id": "delivery-address-row",
+                "title": "Update the Address",
+                "message": "Tap the delivery address to update it."
+            },
+            {
+                "id": "delivery-address-search",
+                "title": "Search a New Address",
+                "message": "Tap Search Address and enter the new address."
+            },
+            {
+                "id": "delivery-address-save",
+                "title": "Save the Address",
+                "message": "Tap Done to save the new delivery address."
+            },
+            {
+                "id": "delivery-shipping-method-row",
+                "title": "Change Shipping Method",
+                "message": "Tap the shipping method to change it."
+            },
+            {
+                "id": "delivery-shipping-method-list",
+                "title": "Select Shipping Method",
+                "message": "Select the correct shipping method for this order."
+            },
+            {
+                "id": "delivery-payment-options",
+                "title": "Select a Payment Option",
+                "message": "Select a payment option to start the payment process."
+            },
+            {
+                "id": "delivery-payment-confirm",
+                "title": "Confirm Payment",
+                "message": "Tap Done to confirm the payment."
+            },
+            {
+                "id": "delivery-documents",
+                "title": "Order Documents",
+                "message": "Here you can view documents related to this order, such as receipts or delivery notes, and choose to print or email them."
+            },
+            {
+                "id": "delivery-complete",
+                "title": "Close the Order",
+                "message": "Tap Done to close the order."
+            }
+        ]
+    },
+    {
+        "id": "create-customer",
+        "category": "loyalty",
+        "title": "Creating a Customer",
+        "description": "Learn how to create a new customer, set their addresses, and manage subscriptions, loyalty programs, and surveys.",
+        "tips": [
+            {
+                "id": "cust-plus-icon",
+                "title": "Start Creating a Customer",
+                "message": "Tap the + icon to start creating a new customer."
+            },
+            {
+                "id": "cust-required-fields",
+                "title": "Fill in Required Fields",
+                "message": "Each field indicates whether it is required — fill out all required information."
+            },
+            {
+                "id": "cust-search-billing-address",
+                "title": "Search a Billing Address",
+                "message": "Tap Search Address and type your query to find an existing address."
+            },
+            {
+                "id": "cust-select-billing-address",
+                "title": "Select the Address",
+                "message": "Tap a result to select it as the billing address."
+            },
+            {
+                "id": "cust-manual-address",
+                "title": "Enter Manually",
+                "message": "Enter the address manually if the search results are not correct."
+            },
+            {
+                "id": "cust-delivery-toggle",
+                "title": "Different Delivery Address",
+                "message": "Tap the toggle to set a different delivery address."
+            },
+            {
+                "id": "cust-search-delivery-address",
+                "title": "Search a Delivery Address",
+                "message": "Tap Search Address and type your query to find an existing delivery address."
+            },
+            {
+                "id": "cust-select-delivery-address",
+                "title": "Select Delivery Address",
+                "message": "Tap a result to select it as the delivery address."
+            },
+            {
+                "id": "cust-accept-policies",
+                "title": "Accept Policies",
+                "message": "Tap to view and accept the required policies on this device."
+            },
+            {
+                "id": "cust-policy-cancel",
+                "title": "Cancel Anytime",
+                "message": "Tap Cancel at any time to return to the create customer page without signing."
+            },
+            {
+                "id": "cust-policy-sign",
+                "title": "Sign the Policy",
+                "message": "Tap Sign to sign the policy on this device."
+            },
+            {
+                "id": "cust-signature-previous",
+                "title": "Review the Policy",
+                "message": "Tap Previous to go back and review the policy."
+            },
+            {
+                "id": "cust-signature-clear",
+                "title": "Clear the Signature",
+                "message": "Tap Clear to reset the signature field."
+            },
+            {
+                "id": "cust-signature-draw",
+                "title": "Draw Your Signature",
+                "message": "Draw your signature in this field."
+            },
+            {
+                "id": "cust-signature-save",
+                "title": "Save the Signature",
+                "message": "Tap Save to accept the signature and save the policy."
+            },
+            {
+                "id": "cust-signature-done",
+                "title": "Confirm Acceptance",
+                "message": "Tap Done to confirm the policy acceptance."
+            },
+            {
+                "id": "cust-create-done",
+                "title": "Create the Customer",
+                "message": "When all information is complete, tap Done to create the customer."
+            },
+            {
+                "id": "cust-subscriptions-overview",
+                "title": "Subscriptions",
+                "message": "Here you can see all available subscriptions and activate the ones the customer would like."
+            },
+            {
+                "id": "cust-subscription-toggle",
+                "title": "Activate a Subscription",
+                "message": "Tap the toggle to activate a subscription for this customer."
+            },
+            {
+                "id": "cust-subscription-details",
+                "title": "Subscription Details",
+                "message": "Tap the details row to see a full overview of this subscription."
+            },
+            {
+                "id": "cust-subscriptions-back",
+                "title": "Back to Overview",
+                "message": "Tap Back to return to the subscriptions overview."
+            },
+            {
+                "id": "cust-loyalty-toggles",
+                "title": "Loyalty Programs",
+                "message": "Use the toggles to select one or more loyalty programs for this customer."
+            },
+            {
+                "id": "cust-loyalty-details",
+                "title": "Program Details",
+                "message": "Tap the details row to explore all details of this loyalty program."
+            },
+            {
+                "id": "cust-loyalty-subscribe",
+                "title": "Subscribe to the Program",
+                "message": "Tap the toggle to subscribe the customer to this loyalty program."
+            },
+            {
+                "id": "cust-loyalty-tier-open",
+                "title": "Open a Tier",
+                "message": "Tap a tier to see its details."
+            },
+            {
+                "id": "cust-loyalty-tiers-info",
+                "title": "About Tiers",
+                "message": "Tiers show how a consumer can progress by earning points."
+            },
+            {
+                "id": "cust-loyalty-badge-open",
+                "title": "Open a Badge",
+                "message": "Tap a badge to see its details."
+            },
+            {
+                "id": "cust-loyalty-badges-info",
+                "title": "About Badges",
+                "message": "Badges, or challenges, are a fun way for consumers to earn additional points."
+            },
+            {
+                "id": "cust-loyalty-details-tab",
+                "title": "Program Information",
+                "message": "Tap the Details tab to see the full name and description of this program."
+            },
+            {
+                "id": "cust-loyalty-benefits-tab",
+                "title": "Benefits",
+                "message": "In this tab you will see the benefits the consumer has received."
+            },
+            {
+                "id": "cust-loyalty-next",
+                "title": "Continue",
+                "message": "Tap Next to continue to the next step."
+            },
+            {
+                "id": "cust-detail-overview",
+                "title": "Customer Created",
+                "message": "The customer has been created — from here you can edit their details, add them to an order, or manage their programs."
+            },
+            {
+                "id": "cust-survey-section",
+                "title": "Start a Survey",
+                "message": "Tap here to start a survey for this customer."
+            },
+            {
+                "id": "cust-survey-row",
+                "title": "Pick a Survey",
+                "message": "Tap a survey to start it from the overview."
+            },
+            {
+                "id": "cust-survey-cancel",
+                "title": "Cancel Anytime",
+                "message": "Tap Cancel at any time to return to the survey overview."
+            },
+            {
+                "id": "cust-survey-start",
+                "title": "Start the Survey",
+                "message": "Tap Start Survey to begin answering the questions."
+            },
+            {
+                "id": "cust-survey-answer",
+                "title": "Answer the Question",
+                "message": "Answer the current question before moving on."
+            },
+            {
+                "id": "cust-survey-next",
+                "title": "Next Question",
+                "message": "Tap Next to move to the next question."
+            },
+            {
+                "id": "cust-complete",
+                "title": "All Done",
+                "message": "All done — the customer profile is complete."
+            }
+        ]
+    }
 ]
