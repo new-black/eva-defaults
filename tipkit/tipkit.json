@@ -8,12 +8,7 @@
             {
                 "id": "cc-home-category",
                 "title": "Click & Collect Tasks",
-                "message": "Customers may buy products online or in a different store but wish to pick up their products in your store. Tasks to handle these parcels will appear here."
-            },
-            {
-                "id": "cc-home-category-open",
-                "title": "Open Click & Collect",
-                "message": "Tap the line to navigate to the next screen."
+                "message": "Customers may buy products online or in a different store but wish to pick them up in your store. Tap this line to open the tasks that handle these parcels."
             },
             {
                 "id": "cc-subcategory-header",
@@ -164,7 +159,7 @@
     },
     {
         "id": "switch-apps",
-        "category": "checkout",
+        "category": "control",
         "title": "Switching Between Apps",
         "description": "Learn how to switch between your Eva apps using the widgets in your profile.",
         "tips": [
@@ -194,17 +189,12 @@
             {
                 "id": "subscriptions-search-input",
                 "title": "Search for a Consumer",
-                "message": "Select the input field to start searching."
+                "message": "Select the search field and type the consumer's name to find them, for example \"Jane Doe\"."
             },
             {
                 "id": "subscriptions-cfd-connect",
                 "title": "Connect a CFD",
                 "message": "To ask the consumer to provide their own details to search on, connect and start the search on the CFD."
-            },
-            {
-                "id": "subscriptions-search-query",
-                "title": "Type a Search Query",
-                "message": "Type a search query to find the consumer, for example \"Jane Doe\"."
             },
             {
                 "id": "subscriptions-filter",
@@ -222,9 +212,9 @@
                 "message": "If the expected consumer is found, tap the row to open their details."
             },
             {
-                "id": "subscriptions-optin-warning",
-                "title": "Opt-In Warning",
-                "message": "You are notified here if the consumer is not subscribed to a preferred opt-in. Tap the warning to open the opt-in overview."
+                "id": "subscriptions-preferences-link",
+                "title": "Open Preferences",
+                "message": "Tap Preferences to view and manage the consumer's opt-ins."
             },
             {
                 "id": "subscriptions-optin-list-item",
@@ -250,13 +240,18 @@
         "description": "Learn how to set a product to delivery, add a customer, and check out a delivery order.",
         "tips": [
             {
+                "id": "delivery-products-tab",
+                "title": "Open the Products Tab",
+                "message": "Tap the Products tab to search or scan for a product."
+            },
+            {
                 "id": "delivery-scan-product",
                 "title": "Add a Product",
                 "message": "Scan or search a product to add it to the basket before starting this journey."
             },
             {
                 "id": "delivery-open-order-line",
-                "title": "Open Order Details",
+                "title": "Open Product Details",
                 "message": "Tap a product line to open its order details."
             },
             {
@@ -277,7 +272,7 @@
             {
                 "id": "delivery-add-customer",
                 "title": "Add a Customer",
-                "message": "A customer is required for delivery orders — tap the icon to add one."
+                "message": "A customer is required for delivery orders — tap the button to add one."
             },
             {
                 "id": "delivery-search-customer",
@@ -295,14 +290,9 @@
                 "message": "Tap Checkout to proceed to delivery settings and payment."
             },
             {
-                "id": "delivery-address-section",
-                "title": "Check the Address",
-                "message": "Check that the delivery address is correct before continuing."
-            },
-            {
                 "id": "delivery-address-row",
-                "title": "Update the Address",
-                "message": "Tap the delivery address to update it."
+                "title": "Check the Address",
+                "message": "Check that the delivery address is correct — tap it to update it if needed."
             },
             {
                 "id": "delivery-address-search",
@@ -363,26 +353,6 @@
                 "message": "Each field indicates whether it is required — fill out all required information."
             },
             {
-                "id": "cust-search-billing-address",
-                "title": "Search a Billing Address",
-                "message": "Tap Search Address and type your query to find an existing address."
-            },
-            {
-                "id": "cust-select-billing-address",
-                "title": "Select the Address",
-                "message": "Tap a result to select it as the billing address."
-            },
-            {
-                "id": "cust-manual-address",
-                "title": "Enter Manually",
-                "message": "Enter the address manually if the search results are not correct."
-            },
-            {
-                "id": "cust-delivery-toggle",
-                "title": "Different Delivery Address",
-                "message": "Tap the toggle to set a different delivery address."
-            },
-            {
                 "id": "cust-search-delivery-address",
                 "title": "Search a Delivery Address",
                 "message": "Tap Search Address and type your query to find an existing delivery address."
@@ -391,6 +361,26 @@
                 "id": "cust-select-delivery-address",
                 "title": "Select Delivery Address",
                 "message": "Tap a result to select it as the delivery address."
+            },
+            {
+                "id": "cust-manual-address",
+                "title": "Enter Manually",
+                "message": "Enter the address manually if the search results are not correct."
+            },
+            {
+                "id": "cust-billing-toggle",
+                "title": "Different Billing Address",
+                "message": "Tap the toggle to set a different billing address."
+            },
+            {
+                "id": "cust-search-billing-address",
+                "title": "Search a Billing Address",
+                "message": "Tap Search Address and type your query to find an existing address."
+            },
+            {
+                "id": "cust-select-billing-address",
+                "title": "Select the Address",
+                "message": "Tap a result to select it as the billing address."
             },
             {
                 "id": "cust-accept-policies",
@@ -413,24 +403,19 @@
                 "message": "Tap Previous to go back and review the policy."
             },
             {
-                "id": "cust-signature-clear",
-                "title": "Clear the Signature",
-                "message": "Tap Clear to reset the signature field."
-            },
-            {
                 "id": "cust-signature-draw",
                 "title": "Draw Your Signature",
                 "message": "Draw your signature in this field."
             },
             {
+                "id": "cust-signature-clear",
+                "title": "Clear the Signature",
+                "message": "Tap Clear to reset the signature field."
+            },
+            {
                 "id": "cust-signature-save",
                 "title": "Save the Signature",
                 "message": "Tap Save to accept the signature and save the policy."
-            },
-            {
-                "id": "cust-signature-done",
-                "title": "Confirm Acceptance",
-                "message": "Tap Done to confirm the policy acceptance."
             },
             {
                 "id": "cust-create-done",
