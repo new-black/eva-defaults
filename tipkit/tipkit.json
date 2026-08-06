@@ -184,17 +184,17 @@
         "id": "subscriptions",
         "category": "loyalty",
         "title": "Managing Subscriptions",
-        "description": "Learn how to find a consumer and manage their opt-ins and subscriptions.",
+        "description": "Learn how to find a customer and manage their opt-ins and subscriptions.",
         "tips": [
             {
                 "id": "subscriptions-search-input",
-                "title": "Search for a Consumer",
-                "message": "Select the search field and type the consumer's name to find them, for example \"Jane Doe\"."
+                "title": "Search for a Customer",
+                "message": "Select the search field and type the customer's name to find them, for example \"Jane Doe\"."
             },
             {
                 "id": "subscriptions-cfd-connect",
                 "title": "Connect a CFD",
-                "message": "To ask the consumer to provide their own details to search on, connect and start the search on the CFD."
+                "message": "To ask the customer to provide their own details to search on, connect and start the search on the CFD."
             },
             {
                 "id": "subscriptions-filter",
@@ -204,17 +204,17 @@
             {
                 "id": "subscriptions-search-tabs",
                 "title": "Switch Search Type",
-                "message": "Quickly switch between searching on consumers, companies or employees by tapping the tabs."
+                "message": "Quickly switch between searching on customers, companies or employees by tapping the tabs."
             },
             {
                 "id": "subscriptions-consumer-row",
-                "title": "Open the Consumer",
-                "message": "If the expected consumer is found, tap the row to open their details."
+                "title": "Open the Customer",
+                "message": "If the expected customer is found, tap the row to open their details."
             },
             {
                 "id": "subscriptions-preferences-link",
                 "title": "Open Preferences",
-                "message": "Tap Preferences to view and manage the consumer's opt-ins."
+                "message": "Tap Preferences to view and manage the customer's opt-ins."
             },
             {
                 "id": "subscriptions-optin-list-item",
@@ -368,21 +368,6 @@
                 "message": "Enter the address manually if the search results are not correct."
             },
             {
-                "id": "cust-billing-toggle",
-                "title": "Different Billing Address",
-                "message": "Tap the toggle to set a different billing address."
-            },
-            {
-                "id": "cust-search-billing-address",
-                "title": "Search a Billing Address",
-                "message": "Tap Search Address and type your query to find an existing address."
-            },
-            {
-                "id": "cust-select-billing-address",
-                "title": "Select the Address",
-                "message": "Tap a result to select it as the billing address."
-            },
-            {
                 "id": "cust-accept-policies",
                 "title": "Accept Policies",
                 "message": "Tap to view and accept the required policies on this device."
@@ -443,89 +428,9 @@
                 "message": "Tap Back to return to the subscriptions overview."
             },
             {
-                "id": "cust-loyalty-toggles",
-                "title": "Loyalty Programs",
-                "message": "Use the toggles to select one or more loyalty programs for this customer."
-            },
-            {
-                "id": "cust-loyalty-details",
-                "title": "Program Details",
-                "message": "Tap the details row to explore all details of this loyalty program."
-            },
-            {
-                "id": "cust-loyalty-subscribe",
-                "title": "Subscribe to the Program",
-                "message": "Tap the toggle to subscribe the customer to this loyalty program."
-            },
-            {
-                "id": "cust-loyalty-tier-open",
-                "title": "Open a Tier",
-                "message": "Tap a tier to see its details."
-            },
-            {
-                "id": "cust-loyalty-tiers-info",
-                "title": "About Tiers",
-                "message": "Tiers show how a consumer can progress by earning points."
-            },
-            {
-                "id": "cust-loyalty-badge-open",
-                "title": "Open a Badge",
-                "message": "Tap a badge to see its details."
-            },
-            {
-                "id": "cust-loyalty-badges-info",
-                "title": "About Badges",
-                "message": "Badges, or challenges, are a fun way for consumers to earn additional points."
-            },
-            {
-                "id": "cust-loyalty-details-tab",
-                "title": "Program Information",
-                "message": "Tap the Details tab to see the full name and description of this program."
-            },
-            {
-                "id": "cust-loyalty-benefits-tab",
-                "title": "Benefits",
-                "message": "In this tab you will see the benefits the consumer has received."
-            },
-            {
-                "id": "cust-loyalty-next",
-                "title": "Continue",
-                "message": "Tap Next to continue to the next step."
-            },
-            {
                 "id": "cust-detail-overview",
                 "title": "Customer Created",
                 "message": "The customer has been created — from here you can edit their details, add them to an order, or manage their programs."
-            },
-            {
-                "id": "cust-survey-section",
-                "title": "Start a Survey",
-                "message": "Tap here to start a survey for this customer."
-            },
-            {
-                "id": "cust-survey-row",
-                "title": "Pick a Survey",
-                "message": "Tap a survey to start it from the overview."
-            },
-            {
-                "id": "cust-survey-cancel",
-                "title": "Cancel Anytime",
-                "message": "Tap Cancel at any time to return to the survey overview."
-            },
-            {
-                "id": "cust-survey-start",
-                "title": "Start the Survey",
-                "message": "Tap Start Survey to begin answering the questions."
-            },
-            {
-                "id": "cust-survey-answer",
-                "title": "Answer the Question",
-                "message": "Answer the current question before moving on."
-            },
-            {
-                "id": "cust-survey-next",
-                "title": "Next Question",
-                "message": "Tap Next to move to the next question."
             },
             {
                 "id": "cust-complete",
