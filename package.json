@@ -9,7 +9,7 @@
     "test:coverage": "vitest run --coverage"
   },
   "devDependencies": {
-    "@types/node": "^26.1.1",
+    "@types/node": "^26.1.2",
     "@vitest/coverage-v8": "^4.1.10",
     "ajv-cli": "^5.0.0",
     "vitest": "^4.1.10"
