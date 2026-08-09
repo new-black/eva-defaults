@@ -7,10 +7,12 @@ on:
   pull_request:
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  # Superseded pull request runs are cancelled, but every commit on main keeps its
-  # own completed run — this repository's contents reach all environments, so the
-  # history of what was verified matters more than the saved minutes.
+  # Pull requests share a group per branch so a new commit supersedes the run before
+  # it. Pushes are keyed by commit instead: a shared group would leave the second of
+  # three quick merges pending, and GitHub cancels a pending run when a newer one
+  # queues behind the same group. This repository's contents reach all environments,
+  # so every commit on main keeps its own completed run.
+  group: ${{ github.workflow }}-${{ github.event_name == 'pull_request' && github.ref || github.sha }}
   cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 permissions:
