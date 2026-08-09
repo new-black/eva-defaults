@@ -2,9 +2,16 @@ name: JSON check
 
 on:
   push:
-    paths:
-      - "**.json"
+    branches:
+      - main
   pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  # Superseded pull request runs are cancelled, but every commit on main keeps its
+  # own completed run — this repository's contents reach all environments, so the
+  # history of what was verified matters more than the saved minutes.
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 permissions:
   contents: read
