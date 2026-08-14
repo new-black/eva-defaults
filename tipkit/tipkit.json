@@ -8,7 +8,12 @@
             {
                 "id": "cc-home-category",
                 "title": "Click & Collect Tasks",
-                "message": "Customers may buy products online or in a different store but wish to pick them up in your store. Tap this line to open the tasks that handle these parcels."
+                "message": "Customers may buy products online or in a different store but wish to pick up their products in your store. Tasks to handle these parcels will appear here."
+            },
+            {
+                "id": "cc-home-category-open",
+                "title": "Open Click & Collect",
+                "message": "Tap the line to navigate to the next screen."
             },
             {
                 "id": "cc-subcategory-header",
@@ -159,7 +164,7 @@
     },
     {
         "id": "switch-apps",
-        "category": "control",
+        "category": "checkout",
         "title": "Switching Between Apps",
         "description": "Learn how to switch between your Eva apps using the widgets in your profile.",
         "tips": [
@@ -189,12 +194,17 @@
             {
                 "id": "subscriptions-search-input",
                 "title": "Search for a Customer",
-                "message": "Select the search field and type the customer's name to find them, for example \"Jane Doe\"."
+                "message": "Select the input field to start searching."
             },
             {
                 "id": "subscriptions-cfd-connect",
                 "title": "Connect a CFD",
                 "message": "To ask the customer to provide their own details to search on, connect and start the search on the CFD."
+            },
+            {
+                "id": "subscriptions-search-query",
+                "title": "Type a Search Query",
+                "message": "Type a search query to find the customer, for example \"Jane Doe\"."
             },
             {
                 "id": "subscriptions-filter",
@@ -212,9 +222,9 @@
                 "message": "If the expected customer is found, tap the row to open their details."
             },
             {
-                "id": "subscriptions-preferences-link",
-                "title": "Open Preferences",
-                "message": "Tap Preferences to view and manage the customer's opt-ins."
+                "id": "subscriptions-optin-warning",
+                "title": "Opt-In Warning",
+                "message": "You are notified here if the customer is not subscribed to a preferred opt-in. Tap the warning to open the opt-in overview."
             },
             {
                 "id": "subscriptions-optin-list-item",
@@ -240,18 +250,13 @@
         "description": "Learn how to set a product to delivery, add a customer, and check out a delivery order.",
         "tips": [
             {
-                "id": "delivery-products-tab",
-                "title": "Open the Products Tab",
-                "message": "Tap the Products tab to search or scan for a product."
-            },
-            {
                 "id": "delivery-scan-product",
                 "title": "Add a Product",
                 "message": "Scan or search a product to add it to the basket before starting this journey."
             },
             {
                 "id": "delivery-open-order-line",
-                "title": "Open Product Details",
+                "title": "Open Order Details",
                 "message": "Tap a product line to open its order details."
             },
             {
@@ -272,7 +277,7 @@
             {
                 "id": "delivery-add-customer",
                 "title": "Add a Customer",
-                "message": "A customer is required for delivery orders — tap the button to add one."
+                "message": "A customer is required for delivery orders — tap the icon to add one."
             },
             {
                 "id": "delivery-search-customer",
@@ -290,9 +295,14 @@
                 "message": "Tap Checkout to proceed to delivery settings and payment."
             },
             {
-                "id": "delivery-address-row",
+                "id": "delivery-address-section",
                 "title": "Check the Address",
-                "message": "Check that the delivery address is correct — tap it to update it if needed."
+                "message": "Check that the delivery address is correct before continuing."
+            },
+            {
+                "id": "delivery-address-row",
+                "title": "Update the Address",
+                "message": "Tap the delivery address to update it."
             },
             {
                 "id": "delivery-address-search",
@@ -353,6 +363,26 @@
                 "message": "Each field indicates whether it is required — fill out all required information."
             },
             {
+                "id": "cust-search-billing-address",
+                "title": "Search a Billing Address",
+                "message": "Tap Search Address and type your query to find an existing address."
+            },
+            {
+                "id": "cust-select-billing-address",
+                "title": "Select the Address",
+                "message": "Tap a result to select it as the billing address."
+            },
+            {
+                "id": "cust-manual-address",
+                "title": "Enter Manually",
+                "message": "Enter the address manually if the search results are not correct."
+            },
+            {
+                "id": "cust-delivery-toggle",
+                "title": "Different Delivery Address",
+                "message": "Tap the toggle to set a different delivery address."
+            },
+            {
                 "id": "cust-search-delivery-address",
                 "title": "Search a Delivery Address",
                 "message": "Tap Search Address and type your query to find an existing delivery address."
@@ -361,11 +391,6 @@
                 "id": "cust-select-delivery-address",
                 "title": "Select Delivery Address",
                 "message": "Tap a result to select it as the delivery address."
-            },
-            {
-                "id": "cust-manual-address",
-                "title": "Enter Manually",
-                "message": "Enter the address manually if the search results are not correct."
             },
             {
                 "id": "cust-accept-policies",
@@ -388,19 +413,24 @@
                 "message": "Tap Previous to go back and review the policy."
             },
             {
-                "id": "cust-signature-draw",
-                "title": "Draw Your Signature",
-                "message": "Draw your signature in this field."
-            },
-            {
                 "id": "cust-signature-clear",
                 "title": "Clear the Signature",
                 "message": "Tap Clear to reset the signature field."
             },
             {
+                "id": "cust-signature-draw",
+                "title": "Draw Your Signature",
+                "message": "Draw your signature in this field."
+            },
+            {
                 "id": "cust-signature-save",
                 "title": "Save the Signature",
                 "message": "Tap Save to accept the signature and save the policy."
+            },
+            {
+                "id": "cust-signature-done",
+                "title": "Confirm Acceptance",
+                "message": "Tap Done to confirm the policy acceptance."
             },
             {
                 "id": "cust-create-done",
@@ -428,9 +458,89 @@
                 "message": "Tap Back to return to the subscriptions overview."
             },
             {
+                "id": "cust-loyalty-toggles",
+                "title": "Loyalty Programs",
+                "message": "Use the toggles to select one or more loyalty programs for this customer."
+            },
+            {
+                "id": "cust-loyalty-details",
+                "title": "Program Details",
+                "message": "Tap the details row to explore all details of this loyalty program."
+            },
+            {
+                "id": "cust-loyalty-subscribe",
+                "title": "Subscribe to the Program",
+                "message": "Tap the toggle to subscribe the customer to this loyalty program."
+            },
+            {
+                "id": "cust-loyalty-tier-open",
+                "title": "Open a Tier",
+                "message": "Tap a tier to see its details."
+            },
+            {
+                "id": "cust-loyalty-tiers-info",
+                "title": "About Tiers",
+                "message": "Tiers show how a customer can progress by earning points."
+            },
+            {
+                "id": "cust-loyalty-badge-open",
+                "title": "Open a Badge",
+                "message": "Tap a badge to see its details."
+            },
+            {
+                "id": "cust-loyalty-badges-info",
+                "title": "About Badges",
+                "message": "Badges, or challenges, are a fun way for customers to earn additional points."
+            },
+            {
+                "id": "cust-loyalty-details-tab",
+                "title": "Program Information",
+                "message": "Tap the Details tab to see the full name and description of this program."
+            },
+            {
+                "id": "cust-loyalty-benefits-tab",
+                "title": "Benefits",
+                "message": "In this tab you will see the benefits the customer has received."
+            },
+            {
+                "id": "cust-loyalty-next",
+                "title": "Continue",
+                "message": "Tap Next to continue to the next step."
+            },
+            {
                 "id": "cust-detail-overview",
                 "title": "Customer Created",
                 "message": "The customer has been created — from here you can edit their details, add them to an order, or manage their programs."
+            },
+            {
+                "id": "cust-survey-section",
+                "title": "Start a Survey",
+                "message": "Tap here to start a survey for this customer."
+            },
+            {
+                "id": "cust-survey-row",
+                "title": "Pick a Survey",
+                "message": "Tap a survey to start it from the overview."
+            },
+            {
+                "id": "cust-survey-cancel",
+                "title": "Cancel Anytime",
+                "message": "Tap Cancel at any time to return to the survey overview."
+            },
+            {
+                "id": "cust-survey-start",
+                "title": "Start the Survey",
+                "message": "Tap Start Survey to begin answering the questions."
+            },
+            {
+                "id": "cust-survey-answer",
+                "title": "Answer the Question",
+                "message": "Answer the current question before moving on."
+            },
+            {
+                "id": "cust-survey-next",
+                "title": "Next Question",
+                "message": "Tap Next to move to the next question."
             },
             {
                 "id": "cust-complete",
