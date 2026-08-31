@@ -75,5 +75,12 @@
     "IsActive": true,
     "Data": {"Title":"Compliance","Description":"Module for viewing and managing fiscal archives, event ledger, payment settlements and other, compliance-related items","Url":"/compliance"},
     "Roles": ["NB","NBS"]
+  },
+  {
+    "Name": "Enablement",
+    "Code": "ENABLEMENT",
+    "IsActive": true,
+    "Data": {"Title":"Enablement","Description":"Place to configure employee enablement features like Knowledge Studio","Url":"/enablement"},
+    "Roles": ["NB","NBS"]
   }
 ]
