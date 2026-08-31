@@ -80,7 +80,7 @@
     "Name": "Enablement",
     "Code": "ENABLEMENT",
     "IsActive": true,
-    "Data": {"Title":"Enablement","Description":"Module for features that help users learn and adopt EVA, such as the knowledge center and TipKit journeys","Url":"/enablement"},
+    "Data": {"Title":"Enablement","Description":"Place to configure employee enablement features like Knowledge Studio","Url":"/enablement"},
     "Roles": ["NB","NBS"]
   }
 ]
