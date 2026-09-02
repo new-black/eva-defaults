@@ -1,0 +1,13 @@
+{
+  "checkout-basket-widget": [
+    "CurrencyID",
+    "Orders:AllowMixed",
+    "Orders:TaxExemptionEnabled",
+    "Orders:ClickAndCollectEnabled",
+    "Payment:Initialization:PaymentTypes",
+    "Adyen:CheckoutAPI:ClientKey",
+    "Stripe:PublishableApiKey",
+    "Paazl:Enabled",
+    "AvailableGiftCardConfigurations"
+  ]
+}
