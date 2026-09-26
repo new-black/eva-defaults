@@ -1,0 +1,15 @@
+{
+    "type": "object",
+    "additionalProperties": {
+        "type": "array",
+        "items": {
+            "type": "string",
+            "minLength": 1
+        },
+        "minItems": 1,
+        "uniqueItems": true
+    },
+    "propertyNames": {
+        "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    }
+}
