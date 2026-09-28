@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Eva defaults configuration",
   "scripts": {
-    "validate": "ajv validate -s appsettings.schema.json -d appsettings.json && ajv validate -s countries.schema.json -d countries.json && ajv validate -s tipkit/tipkit.schema.json -d tipkit/tipkit.json",
+    "validate": "ajv validate -s appsettings.schema.json -d appsettings.json && ajv validate -s countries.schema.json -d countries.json && ajv validate -s tipkit/tipkit.schema.json -d tipkit/tipkit.json && ajv validate -s application_configuration_profiles.schema.json -d application_configuration_profiles.json",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage"
