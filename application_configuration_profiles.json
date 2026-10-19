@@ -480,7 +480,7 @@
     "RequiredData:Order:RequireUserWhenCompany",
     "Customer:BlockChangeEmailAddress",
     "TrackUserBoughtProductOwner",
-    "Scripting:RequireEditApproval",
+    "RequireScriptEditApproval",
     "CashJournal:Deposit:AllowOnlyFromSafe",
     "CashJournal:IgnoreDenominations",
     "Google:Maps:ApiKey:HTTP",
