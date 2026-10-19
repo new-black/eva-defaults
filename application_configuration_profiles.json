@@ -452,6 +452,7 @@
     "App:PrintTasks:HideDelete",
     "App:ProductDetail:Properties",
     "App:ReceiveGoods:AllowPartialReceive",
+    "App:Returns:CreateWithoutRetake",
     "App:Returns:PrefilledOrganizationUnit",
     "App:SearchUsers:HideCountryFilter",
     "App:ShipFromStore:AllowPartialPick",
