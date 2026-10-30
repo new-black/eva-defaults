@@ -449,6 +449,7 @@
     "App:OrderDetails:Properties",
     "App:OverrulingUserLanguage",
     "App:PickupAvailability:IncludeOrganizationUnitsWithoutStock",
+    "App:PreferredFieldsToWarnAbout",
     "App:PrintTasks:HideDelete",
     "App:ProductDetail:Properties",
     "App:ReceiveGoods:AllowPartialReceive",
