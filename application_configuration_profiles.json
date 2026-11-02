@@ -234,6 +234,7 @@
     "App:Product:OrganizationUnitBackInStock",
     "App:Product:ShowPrintPriceLabel",
     "App:ProductDetail:Properties",
+    "App:ProductDetails:Description",
     "App:ReceiveGoods:AllowPartialReceive",
     "App:ReceiveGoods:DateDisplayMode",
     "App:ReceiveGoods:DisplayOrderCustomType",
