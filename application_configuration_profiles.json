@@ -223,6 +223,7 @@
     "App:Order:IgnoreTakeoverUpdateUsers",
     "App:Order:MaxLineCount",
     "App:Order:ShowTakeoverAlert",
+    "App:OrderCustomFields:SearchFilter",
     "App:Orders:DisplayPrefiguredDiscounts",
     "App:Orders:HideTransferOrders",
     "App:Payment:ShowQROnTerminal",
