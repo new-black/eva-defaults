@@ -321,6 +321,7 @@
     "App:UseGetAddressForZipcodeInNL",
     "App:UserSearchType",
     "App:VersionStatus:Expiration",
+    "App:WatchtowerSelfOnboarding:Enabled",
     "App:WishLists:Enabled",
     "AvailableGiftCardConfigurations",
     "CacheKey",
