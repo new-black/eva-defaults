@@ -385,6 +385,7 @@
     "TapToPay:Provider",
     "TrackUserBoughtProductOwner",
     "Training:BackupDate",
+    "Urls:Api",
     "Urls:Assets",
     "Urls:Store",
     "UserTasks:FullStockCount:DefaultRecountInterval"
