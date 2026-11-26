@@ -470,6 +470,7 @@
     "App:ShipFromStore:DeterminationType",
     "App:ShipFromStore:SupportMultipleShipments",
     "App:Shipment:UrlContainsSlash",
+    "App:ShowDiscountLayerNameOnCoupon",
     "App:ShowIndicationOnInteractionLogs",
     "App:UseGetAddressForZipcodeInNL",
     "App:UseLegacyTaskModule",
