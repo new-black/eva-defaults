@@ -227,6 +227,7 @@
     "App:OrderCustomFields:SearchFilter",
     "App:Orders:DisplayPrefiguredDiscounts",
     "App:Orders:HideTransferOrders",
+    "App:PINLogin:EmployeeNumberNumPad",
     "App:Payment:ShowQROnTerminal",
     "App:PickTask:EnforceScanning",
     "App:PickupAvailability:IncludeCrossBorderStores",
