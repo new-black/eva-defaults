@@ -497,6 +497,7 @@
     "RequireScriptEditApproval",
     "CashJournal:Deposit:AllowOnlyFromSafe",
     "CashJournal:IgnoreDenominations",
+    "CycleCount:V2:Enabled",
     "Google:Maps:ApiKey:HTTP",
     "Google:Maps:ApiKey",
     "AI:Enabled",
