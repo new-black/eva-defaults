@@ -212,6 +212,7 @@
     "App:IfCouponExpiresWithinXTimeFrame",
     "App:IncognitoUsersOnly",
     "App:LineActionTypes:Available",
+    "App:Login:EnableEmployeeNumberNumPad",
     "App:Login:PreferredMethod",
     "App:Login:ReentryPrompt",
     "App:Login:UseJwtTokens",
